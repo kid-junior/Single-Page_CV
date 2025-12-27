@@ -1,4 +1,4 @@
-This is my solution to the Single-Page CV project on roadmap.sh, https://roadmap.sh/projects/single-page-cv
+This is my solution to the Single-Page CV project on roadmap.sh: https://roadmap.sh/projects/single-page-cv
 
 ## Instructions to Run the Project
 
