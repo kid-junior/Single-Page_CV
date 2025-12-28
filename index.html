@@ -12,13 +12,41 @@
     <meta property="og:title" content="Single-Paged CV"/>
     <meta prperty="og:description" content="A Single-Paged CV form.">
     <meta property="og:type" content="profile"/>
+    <meta property="og:url" content="https://kidz77-max.github.io/CV-form-project/"/>
     <link rel="icon" href="cv.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: snow;
+            border: solid black;
+            padding: 60px 200px 60px 60px;
+            font-family: monospace;
+            font-size: x-large;
+            margin: 50px 100px 50px 50px;
+        }
+        hr{
+            border: 1px solid black;
+            width: 80%;
+            margin-left: 0;
+        }
+        .p1{
+            color: rgb(33, 162, 33);
+            font-weight: 700;
+        }
+        span{
+            color: #0775dc;
+            font-weight: 700;
+        }
+        ul{
+            list-style-position: inside; 
+            padding: 0;
+        }
+    </style>
 </head>
-<body style="background-color: snow; border: solid black; padding: 60px 200px 60px 60px ; font-family: monospace; font-size: x-large; margin: 50px 100px 50px 50px;">
+<body>
     <section>
-        <hr style="border: 1px solid black; width: 80%; margin-left: 0;">
+        <hr>
         <h1 >Your Name</h1>
-        <p style="color: rgb(33, 162, 33); font-weight: 700">Junior Frontend Developer</p>
+        <p class="p1">Junior Frontend Developer</p>
         <p>
             123 Your street
             <br>Your City, ST 12345
@@ -26,23 +54,23 @@
             <br>no_reply@example.com
         </p>
         <br>
-        <p style="color: rgb(33, 162, 33); font-weight: 700">Skills</p>
+        <p class="p1">Skills</p>
         <p>
             HTML, CSS, Javascript, Accessibility, Figma to Design, Responsive Web Design,<br> Technical writing, Presentation
         </p>
         <br>
-        <p style="color: rgb(33, 162, 33); font-weight: 700">Education</p>
+        <p class="p1">Education</p>
         <p>
-            <span style="color: #0775dc; font-weight: 700;">School Name, Location - Degree</span>
+            <span">School Name, Location - Degree</span>
             <br>Month 20xx to Month20xx
             <br>List of exciting things you did at university
         </p>
         <br>
-        <p style="color: rgb(33, 162, 33); font-weight: 700">Experience</p>
+        <p class="p1">Experience</p>
         <p>
-            <span style="color: #0775dc; font-weight: 700;">Company Name, Location - Job Title</span>
+            <span>Company Name, Location - Job Title</span>
             <br>Month 20xx to Month20xx
-            <ul style="list-style-position: inside; padding: 0;">
+            <ul>
                 <li>List of achievements </li>
                 <li>List of achievements </li>
                 <li>List of achievements </li>
@@ -50,7 +78,7 @@
             Skills: List of Skills used or gained at this Company
         </p>
         <br>
-        <p style="color: rgb(33, 162, 33); font-weight: 700">Across the Internet</p>
+        <p class="p1">Across the Internet</p>
         <p>Add your LinkedIn, GitHub profile links</p>
     </section>
 </body>
