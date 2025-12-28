@@ -3,4 +3,5 @@ This is my solution to the Single-Page CV project on roadmap.sh: https://roadmap
 ## Instructions to Run the Project
 
 1. Clone the repo: git clone https://github.com/Kidz77-max/CV-form-project.git
-2. Open index.html
+2. download the zip file
+3. Open index.html
